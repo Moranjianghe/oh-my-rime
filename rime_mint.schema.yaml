@@ -250,6 +250,11 @@ speller:
     # - derive/^([zcs])([^h])/$1h$2/ # z, c, s => zh, ch, sh
     # - derive/([aei])n$/$1ng/ # an => ang, en => eng, in => ing
     # - derive/([aei])ng$/$1n/ # ang => an, eng => en, ing => in
+    - xform/^en$/eng/  # en => eng
+    - xform/^eng$/en/  # eng => en
+    - xform/^in$/ing/  # in => ing
+    - xform/^ing$/in/  # ing => in
+
     # - derive/([iu])an$/$lan/ # ian => iang, uan => uang
     # - derive/([iu])ang$/$lan/ # iang => ian, uang => uan
     - derive/([aeiou])ng$/$1gn/        # dagn => dang
