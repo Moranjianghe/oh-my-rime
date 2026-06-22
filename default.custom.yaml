@@ -9,3 +9,5 @@ patch:
     - {schema: rime_mint}
     - {schema: luna_pinyin}
     - {schema: nguphing}
+  "switcher/hotkeys":                                                                                       
+    - F4
