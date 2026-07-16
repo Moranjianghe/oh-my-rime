@@ -11,3 +11,4 @@ patch:
     - {schema: nguphing}
   "switcher/hotkeys":                                                                                       
     - F4
+    - Control+grave
